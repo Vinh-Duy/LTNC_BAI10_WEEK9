@@ -10,8 +10,7 @@ public class ShippingCalculatorTest {
 
     @Test
     void testStandard() {
-        // Cố tình sửa 15000.0 thành 99999.0 để test báo lỗi
-        assertEquals(99999.0, calc.calculate(5, "STANDARD")); 
+        assertEquals(15000.0, calc.calculate(5, "STANDARD"));
     }
 
     @Test
